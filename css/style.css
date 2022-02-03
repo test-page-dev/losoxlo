@@ -904,17 +904,20 @@ i {
 .header__search-input::-moz-placeholder {
   color: var(--light-text-color);
   line-height: 19px;
-  letter-spacing: 0.5px;
+  font-size: 15px;
+  letter-spacing: -0.2px;
 }
 .header__search-input:-ms-input-placeholder {
   color: var(--light-text-color);
   line-height: 19px;
-  letter-spacing: 0.5px;
+  font-size: 15px;
+  letter-spacing: -0.2px;
 }
 .header__search-input::placeholder {
   color: var(--light-text-color);
   line-height: 19px;
-  letter-spacing: 0.5px;
+  font-size: 15px;
+  letter-spacing: -0.2px;
 }
 .header__search-location {
   padding: 14px 38px 15px;
