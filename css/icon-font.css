@@ -1,0 +1,152 @@
+@font-face {
+  font-family: 'losoxlo';
+  src: url('../fonts/icon-font/losoxlo.eot?z4m6de');
+  src: url('../fonts/icon-font/losoxlo.eot?z4m6de#iefix') format('embedded-opentype'),
+    url('../fonts/icon-font/losoxlo.ttf?z4m6de') format('truetype'),
+    url('../fonts/icon-font/losoxlo.woff?z4m6de') format('woff'),
+    url('../fonts/icon-font/losoxlo.svg?z4m6de#losoxlo') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="i-"]::before,
+[class*=" i-"]::before {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'losoxlo' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.i-video-btn:before {
+  content: "\e902";
+  color: #000;
+}
+
+.i-view-sm:before {
+  content: "\e900";
+}
+
+.i-view-m:before {
+  content: "\e901";
+}
+
+.i-star:before {
+  content: "\e903";
+}
+
+.i-social-whatsapp:before {
+  content: "\e904";
+}
+
+.i-social-twitter:before {
+  content: "\e905";
+}
+
+.i-social-link:before {
+  content: "\e906";
+}
+
+.i-social-instagram:before {
+  content: "\e907";
+}
+
+.i-social-facebook:before {
+  content: "\e908";
+}
+
+.i-sign:before {
+  content: "\e909";
+}
+
+.i-shopping-cart:before {
+  content: "\e90a";
+}
+
+.i-search-w:before {
+  content: "\e90b";
+}
+
+.i-plus-rounded:before {
+  content: "\e90c";
+}
+
+.i-notification:before {
+  content: "\e90d";
+}
+
+.i-multimedia:before {
+  content: "\e90e";
+}
+
+.i-map-marker:before {
+  content: "\e90f";
+}
+
+.i-mail:before {
+  content: "\e910";
+}
+
+.i-hobby:before {
+  content: "\e911";
+}
+
+.i-heart:before {
+  content: "\e912";
+}
+
+.i-garden:before {
+  content: "\e913";
+}
+
+.i-delivery-car:before {
+  content: "\e914";
+}
+
+.i-checked:before {
+  content: "\e915";
+}
+
+.i-chat:before {
+  content: "\e916";
+}
+
+.i-categories:before {
+  content: "\e917";
+}
+
+.i-call:before {
+  content: "\e918";
+}
+
+.i-auto:before {
+  content: "\e919";
+}
+
+.i-attach-file:before {
+  content: "\e91a";
+}
+
+.i-arrow-right:before {
+  content: "\e91b";
+}
+
+.i-angle-right:before {
+  content: "\e91c";
+}
+
+.i-angle-left:before {
+  content: "\e91d";
+}
+
+.i-angle-down:before {
+  content: "\e91e";
+}

@@ -1,0 +1,29 @@
+/* --- Laptop Landscape --- */
+@media only screen and (max-width: 1366px) {
+  /* Container */
+  .container {
+    max-width: 1170px;
+  }
+}
+/* --- Tablets L --- */
+@media only screen and (max-width: 1200px) {
+  /* Container */
+  .container {
+    max-width: clamp(940px, 95vw, 1100px);
+  }
+}
+/* --- Tablets M --- */
+@media only screen and (max-width: 992px) {
+  /* Container */
+  .container {
+    max-width: clamp(750px, 95vw, 950px);
+  }
+}
+/* --- Mobile Phones L--- */
+@media only screen and (max-width: 768px) {
+  .container {
+    max-width: calc(100% - 20px);
+  }
+}
+/* --- Mobile Phones M--- */
+/* --- Mobile Phones S--- */
