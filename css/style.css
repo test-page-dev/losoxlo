@@ -154,16 +154,22 @@ textarea {
   border-radius: 0;
 }
 input::-moz-placeholder, textarea::-moz-placeholder {
+  font-weight: inherit;
+  font-family: inherit;
   transition: opacity 0.3s;
   -moz-transition: opacity 0.3s;
 }
 input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+  font-weight: inherit;
+  font-family: inherit;
   -ms-transition: opacity 0.3s;
   transition: opacity 0.3s;
   -moz-transition: opacity 0.3s;
 }
 input::placeholder,
 textarea::placeholder {
+  font-weight: inherit;
+  font-family: inherit;
   transition: opacity 0.3s;
   -moz-transition: opacity 0.3s;
 }
@@ -900,23 +906,26 @@ i {
   padding: 0 clamp(15px, 2vw, 22px);
   border-right: 1px solid #DCDDE1;
   height: 100%;
+  font-size: 15px;
+  line-height: 19px;
+  letter-spacing: -0.2px;
 }
 .header__search-input::-moz-placeholder {
   color: var(--light-text-color);
-  line-height: 19px;
   font-size: 15px;
+  line-height: 19px;
   letter-spacing: -0.2px;
 }
 .header__search-input:-ms-input-placeholder {
   color: var(--light-text-color);
-  line-height: 19px;
   font-size: 15px;
+  line-height: 19px;
   letter-spacing: -0.2px;
 }
 .header__search-input::placeholder {
   color: var(--light-text-color);
-  line-height: 19px;
   font-size: 15px;
+  line-height: 19px;
   letter-spacing: -0.2px;
 }
 .header__search-location {
