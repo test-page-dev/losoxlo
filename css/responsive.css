@@ -211,13 +211,8 @@
 
   /* Popular */
   .popular {
-    grid-template: auto/1fr;
-  }
-  .popular__item {
-    align-items: center;
-  }
-  .popular__box {
-    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
   }
 
   /* Footer */

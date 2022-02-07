@@ -98,6 +98,7 @@ $(function () {
 	// Sliders
 	if ($('.slider').length) {
 
+		// Latest deals
 		const swiper1 = new Swiper('.slider-1', {
 			slidesPerView: 'auto',
 			spaceBetween: 25,
@@ -111,6 +112,7 @@ $(function () {
 			}
 		});
 
+		// Featured categories
 		const swiper2 = new Swiper('.slider-2', {
 			slidesPerView: 'auto',
 			autoHeight: false,
@@ -125,6 +127,7 @@ $(function () {
 			}
 		});
 
+		// Top deals
 		const swiper3 = new Swiper('.slider-3', {
 			slidesPerView: 'auto',
 			spaceBetween: 25,
@@ -138,6 +141,7 @@ $(function () {
 			}
 		});
 
+		// Just For You
 		const swiper4 = new Swiper('.slider-4', {
 			slidesPerView: 'auto',
 			spaceBetween: 25,
@@ -151,6 +155,7 @@ $(function () {
 			}
 		});
 
+		// Shop by Region
 		const swiper5 = new Swiper('.slider-5', {
 			slidesPerView: 'auto',
 			spaceBetween: 25,
@@ -160,6 +165,34 @@ $(function () {
 			breakpoints: {
 				1360: {
 					slidesPerView: 5,
+				}
+			}
+		});
+
+		// Popular phones
+		const swiper6 = new Swiper('.slider-6', {
+			slidesPerView: 'auto',
+			spaceBetween: 25,
+			speed: 800,
+			loop: true,
+			freeMode: true,
+			breakpoints: {
+				1360: {
+					slidesPerView: 3,
+				}
+			}
+		});
+
+		// Popular laptops
+		const swiper7 = new Swiper('.slider-7', {
+			slidesPerView: 'auto',
+			spaceBetween: 25,
+			speed: 800,
+			loop: true,
+			freeMode: true,
+			breakpoints: {
+				1360: {
+					slidesPerView: 3,
 				}
 			}
 		});

@@ -1777,15 +1777,17 @@ i {
 .popular__box {
   background-color: #fff;
   border-radius: var(--border-radius-14);
-  padding: 23px 35px;
-  gap: 15px;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  padding: 23px clamp(10px, 2.5vw, 35px);
+  overflow: hidden;
+}
+.popular__box .swiper-slide {
+  width: 150px;
 }
 .popular__item {
   flex-direction: column;
   text-align: center;
   align-items: center;
+  width: 150px;
 }
 .popular__item:hover .popular__item-img img {
   transform: scale(1.1);
@@ -1826,7 +1828,7 @@ i {
 }
 .trending__categories {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   gap: clamp(20px, 2.5vw, 30px);
 }
 .trending__category {
