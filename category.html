@@ -29,7 +29,7 @@
 
 			<!-- Logo -->
 			<div class="header__logo">
-				<a class="" href="#">Losoxlo</a>
+				<a href="/">Losoxlo</a>
 			</div>
 
 			<!-- Search -->
@@ -49,14 +49,11 @@
 					<input class="header__search-input" type="text" placeholder="What are you looking for...">
 					<select class="select header__search-location">
 						<option value="hide">All country</option>
-						<option value="">Home & Kitchen</option>
-						<option value="">Electronic Accessories</option>
-						<option value="">Sport & Apparel</option>
-						<option value="">Groceries & Pets</option>
-						<option value="">Vehicles & Accessories</option>
-						<option value="">Tools & Hardware</option>
-						<option value="">TV, audio & video</option>
-						<option value="">Apparel</option>
+						<option value="">Dakar</option>
+						<option value="">Diourbel</option>
+						<option value="">Fatick</option>
+						<option value="">Kaffrine</option>
+						<option value="">Kaolack</option>
 					</select>
 					<input class="header__search-btn" type="submit" value="Search">
 				</form>
@@ -90,6 +87,20 @@
 				<span>Submit an advertisement</span>
 			</div>
 
+			<!-- Card burger -->
+<div class="burger">
+	<div class="burger__toggle">
+		<div class="burger__main">
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+		<div class="burger__cross">
+			<span></span>
+			<span></span>
+		</div>
+	</div>
+</div><!-- Card burger -->
 		</div>
 
 		<div class="header__line"></div>
@@ -101,35 +112,37 @@
 			<nav class="header__nav">
 
 				<!-- Header menu -->
-				<ul class="header__menu">
-					<li>
-						<a href="#">Home</a>
-					</li>
-					<li>
-						<a href="#">Fashion</a>
-					</li>
-					<li>
-						<a class="is-active" href="#">Electronics</a>
-					</li>
-					<li>
-						<a href="#">Collectibles & Art</a>
-					</li>
-					<li>
-						<a href="#">Home & Garden</a>
-					</li>
-					<li>
-						<a href="#">Sporting Goods</a>
-					</li>
-					<li>
-						<a href="#">Toys</a>
-					</li>
-					<li>
-						<a href="#">Business & Industrial</a>
-					</li>
-					<li>
-						<a href="#">Music</a>
-					</li>
-				</ul>
+				<div class="header__menu-wrap">
+					<ul class="header__menu">
+						<li>
+							<a href="#">Home</a>
+						</li>
+						<li>
+							<a href="#">Fashion</a>
+						</li>
+						<li>
+							<a class="is-active" href="#">Electronics</a>
+						</li>
+						<li>
+							<a href="#">Collectibles & Art</a>
+						</li>
+						<li>
+							<a href="#">Home & Garden</a>
+						</li>
+						<li>
+							<a href="#">Sporting Goods</a>
+						</li>
+						<li>
+							<a href="#">Toys</a>
+						</li>
+						<li>
+							<a href="#">Business & Industrial</a>
+						</li>
+						<li>
+							<a href="#">Music</a>
+						</li>
+					</ul>
+				</div>
 
 				<!-- Header bottom actions -->
 				<div class="header__bottom-actions">
@@ -152,7 +165,69 @@
 	</div>
 </header>
 
-
+<!-- Mobile menu -->
+<div class="mobile-menu">
+	<div class="box"></div>
+	<div class="mobile-menu__inner">
+		<ul class="mobile-menu__list">
+			<li>
+				<a href="#">Fashion</a>
+			</li>
+			<li>
+				<a href="#">Electronics</a>
+			</li>
+			<li>
+				<a href="#">Collectibles &amp; Art</a>
+			</li>
+			<li>
+				<a href="#">Home &amp; Garden</a>
+			</li>
+			<li>
+				<a href="#">Sporting Goods</a>
+			</li>
+			<li>
+				<a href="#">Toys</a>
+			</li>
+			<li>
+				<a href="#">Business &amp; Industrial</a>
+			</li>
+			<li>
+				<a href="#">Music</a>
+			</li>
+		</ul>
+		<ul class="mobile-menu__actions">
+			<li>
+				<a href="#">
+					<i class="i-sign"></i>
+					<span>My Account</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<i class="i-chat"></i>
+					<span>Messages</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<i class="i-notification"></i>
+					<span>Notifications</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<i class="i-heart"></i>
+					<span>Wish List</span>
+				</a>
+			</li>
+		</ul>
+		<!-- Submit an advertisement -->
+		<div class="announcement-btn" role="button">
+			<i class="i-plus-rounded"></i>
+			<span>Submit an advertisement</span>
+		</div>
+	</div>
+</div>
 
 		<div class="container">
 
@@ -450,12 +525,12 @@
 								<div class="shop-item__wishlist" role="button">
 									<i class="i-heart"></i>
 								</div>
-								<a href="#">
+								<div>
 									<img class="shop-item__img" src="img/shop-categories/electronics/1.webp" alt="Item">
-								</a>
-								<span class="shop-item__name">
+								</div>
+								<a class="shop-item__name" href="#">
 									Samsung Galaxy S21 FE 6/128GB Olive
-								</span>
+								</a>
 								<span class="shop-item__price">
 									$25
 								</span>
@@ -473,12 +548,12 @@
 								<div class="shop-item__wishlist" role="button">
 									<i class="i-heart"></i>
 								</div>
-								<a href="#">
+								<div>
 									<img class="shop-item__img" src="img/shop-categories/electronics/3.webp" alt="Item">
-								</a>
-								<span class="shop-item__name">
+								</div>
+								<a href="#" class="shop-item__name">
 									Samsung Galaxy S21 FE 6/128GB Olive
-								</span>
+								</a>
 								<span class="shop-item__price">
 									$25
 								</span>
@@ -496,12 +571,12 @@
 								<div class="shop-item__wishlist" role="button">
 									<i class="i-heart"></i>
 								</div>
-								<a href="#">
+								<div>
 									<img class="shop-item__img" src="img/shop-categories/electronics/2.webp" alt="Item">
-								</a>
-								<span class="shop-item__name">
+								</div>
+								<a href="#" class="shop-item__name">
 									Samsung Galaxy S21 FE 6/128GB Olive
-								</span>
+								</a>
 								<span class="shop-item__price">
 									$25
 								</span>
@@ -519,12 +594,12 @@
 								<div class="shop-item__wishlist" role="button">
 									<i class="i-heart"></i>
 								</div>
-								<a href="#">
+								<div>
 									<img class="shop-item__img" src="img/shop-categories/electronics/4.webp" alt="Item">
-								</a>
-								<span class="shop-item__name">
+								</div>
+								<a href="#" class="shop-item__name">
 									Samsung Galaxy S21 FE 6/128GB Olive
-								</span>
+								</a>
 								<span class="shop-item__price">
 									$25
 								</span>
@@ -542,12 +617,12 @@
 								<div class="shop-item__wishlist" role="button">
 									<i class="i-heart"></i>
 								</div>
-								<a href="#">
+								<div>
 									<img class="shop-item__img" src="img/shop-categories/electronics/5.webp" alt="Item">
-								</a>
-								<span class="shop-item__name">
+								</div>
+								<a href="#" class="shop-item__name">
 									Samsung Galaxy S21 FE 6/128GB Olive
-								</span>
+								</a>
 								<span class="shop-item__price">
 									$25
 								</span>
@@ -565,12 +640,12 @@
 								<div class="shop-item__wishlist" role="button">
 									<i class="i-heart"></i>
 								</div>
-								<a href="#">
+								<div>
 									<img class="shop-item__img" src="img/shop-categories/electronics/6.webp" alt="Item">
-								</a>
-								<span class="shop-item__name">
+								</div>
+								<a href="#" class="shop-item__name">
 									Samsung Galaxy S21 FE 6/128GB Olive
-								</span>
+								</a>
 								<span class="shop-item__price">
 									$25
 								</span>
@@ -588,12 +663,12 @@
 								<div class="shop-item__wishlist" role="button">
 									<i class="i-heart"></i>
 								</div>
-								<a href="#">
+								<div>
 									<img class="shop-item__img" src="img/shop-categories/electronics/7.webp" alt="Item">
-								</a>
-								<span class="shop-item__name">
+								</div>
+								<a href="#" class="shop-item__name">
 									Samsung Galaxy S21 FE 6/128GB Olive
-								</span>
+								</a>
 								<span class="shop-item__price">
 									$25
 								</span>
@@ -611,12 +686,12 @@
 								<div class="shop-item__wishlist" role="button">
 									<i class="i-heart"></i>
 								</div>
-								<a href="#">
+								<div>
 									<img class="shop-item__img" src="img/shop-categories/electronics/8.webp" alt="Item">
-								</a>
-								<span class="shop-item__name">
+								</div>
+								<a href="#" class="shop-item__name">
 									Samsung Galaxy S21 FE 6/128GB Olive
-								</span>
+								</a>
 								<span class="shop-item__price">
 									$25
 								</span>
@@ -634,12 +709,12 @@
 								<div class="shop-item__wishlist" role="button">
 									<i class="i-heart"></i>
 								</div>
-								<a href="#">
+								<div>
 									<img class="shop-item__img" src="img/shop-categories/electronics/9.webp" alt="Item">
-								</a>
-								<span class="shop-item__name">
+								</div>
+								<a href="#" class="shop-item__name">
 									Samsung Galaxy S21 FE 6/128GB Olive
-								</span>
+								</a>
 								<span class="shop-item__price">
 									$25
 								</span>
@@ -657,13 +732,13 @@
 								<div class="shop-item__wishlist" role="button">
 									<i class="i-heart"></i>
 								</div>
-								<a href="#">
+								<div>
 									<img class="shop-item__img" src="img/shop-categories/electronics/10.webp"
 										alt="Item">
-								</a>
-								<span class="shop-item__name">
+								</div>
+								<a href="#" class="shop-item__name">
 									Samsung Galaxy S21 FE 6/128GB Olive
-								</span>
+								</a>
 								<span class="shop-item__price">
 									$25
 								</span>
@@ -681,13 +756,13 @@
 								<div class="shop-item__wishlist" role="button">
 									<i class="i-heart"></i>
 								</div>
-								<a href="#">
+								<div>
 									<img class="shop-item__img" src="img/shop-categories/electronics/11.webp"
 										alt="Item">
-								</a>
-								<span class="shop-item__name">
+								</div>
+								<a href="#" class="shop-item__name">
 									Samsung Galaxy S21 FE 6/128GB Olive
-								</span>
+								</a>
 								<span class="shop-item__price">
 									$25
 								</span>
@@ -705,13 +780,13 @@
 								<div class="shop-item__wishlist" role="button">
 									<i class="i-heart"></i>
 								</div>
-								<a href="#">
+								<div>
 									<img class="shop-item__img" src="img/shop-categories/electronics/12.webp"
 										alt="Item">
-								</a>
-								<span class="shop-item__name">
+								</div>
+								<a href="#" class="shop-item__name">
 									Samsung Galaxy S21 FE 6/128GB Olive
-								</span>
+								</a>
 								<span class="shop-item__price">
 									$25
 								</span>
@@ -775,12 +850,12 @@
 								<div class="shop-item__wishlist" role="button">
 									<i class="i-heart"></i>
 								</div>
-								<a href="#">
-									<img class="shop-item__img" src="img/top-deals/1.webp" alt="Item">
-								</a>
-								<span class="shop-item__name">
+								<div class="shop-item__img">
+									<img src="img/top-deals/1.webp" alt="Item">
+								</div>
+								<a class="shop-item__name" href="#">
 									Samsung Galaxy S21 FE 6/128GB Olive
-								</span>
+								</a>
 								<span class="shop-item__price">
 									$25
 								</span>
@@ -803,12 +878,12 @@
 								<div class="shop-item__wishlist" role="button">
 									<i class="i-heart"></i>
 								</div>
-								<a href="#">
-									<img class="shop-item__img" src="img/top-deals/2.webp" alt="Item">
-								</a>
-								<span class="shop-item__name">
+								<div class="shop-item__img">
+									<img src="img/top-deals/2.webp" alt="Item">
+								</div>
+								<a class="shop-item__name" href="#">
 									Samsung Galaxy
-								</span>
+								</a>
 								<span class="shop-item__price">
 									$25
 								</span>
@@ -828,12 +903,12 @@
 								<div class="shop-item__wishlist" role="button">
 									<i class="i-heart"></i>
 								</div>
-								<a href="#">
-									<img class="shop-item__img" src="img/top-deals/3.webp" alt="Item">
-								</a>
-								<span class="shop-item__name">
+								<div class="shop-item__img">
+									<img src="img/top-deals/3.webp" alt="Item">
+								</div>
+								<a class="shop-item__name" href="#">
 									Samsung Galaxy S21 FE 6/128GB Olive
-								</span>
+								</a>
 								<span class="shop-item__price">
 									$25
 								</span>
@@ -856,12 +931,12 @@
 								<div class="delivery-box">
 									<i class="i-delivery-car"></i>
 								</div>
-								<a href="#">
-									<img class="shop-item__img" src="img/top-deals/4.webp" alt="Item">
-								</a>
-								<span class="shop-item__name">
+								<div class="shop-item__img">
+									<img src="img/top-deals/4.webp" alt="Item">
+								</div>
+								<a class="shop-item__name" href="#">
 									Samsung Galaxy S21 FE 6/128GB Olive
-								</span>
+								</a>
 								<span class="shop-item__price">
 									$25
 								</span>
@@ -881,12 +956,12 @@
 								<div class="shop-item__wishlist" role="button">
 									<i class="i-heart"></i>
 								</div>
-								<a href="#">
-									<img class="shop-item__img" src="img/top-deals/5.webp" alt="Item">
-								</a>
-								<span class="shop-item__name">
+								<div class="shop-item__img">
+									<img src="img/top-deals/5.webp" alt="Item">
+								</div>
+								<a class="shop-item__name" href="#">
 									Samsung 6/128GB Olive
-								</span>
+								</a>
 								<span class="shop-item__price">
 									$25
 								</span>
@@ -906,12 +981,12 @@
 								<div class="shop-item__wishlist" role="button">
 									<i class="i-heart"></i>
 								</div>
-								<a href="#">
-									<img class="shop-item__img" src="img/top-deals/1.webp" alt="Item">
-								</a>
-								<span class="shop-item__name">
+								<div class="shop-item__img">
+									<img src="img/top-deals/1.webp" alt="Item">
+								</div>
+								<a class="shop-item__name" href="#">
 									Samsung Galaxy S21 FE
-								</span>
+								</a>
 								<span class="shop-item__price">
 									$25
 								</span>
@@ -931,12 +1006,12 @@
 								<div class="shop-item__wishlist" role="button">
 									<i class="i-heart"></i>
 								</div>
-								<a href="#">
-									<img class="shop-item__img" src="img/top-deals/3.webp" alt="Item">
-								</a>
-								<span class="shop-item__name">
+								<div class="shop-item__img">
+									<img src="img/top-deals/3.webp" alt="Item">
+								</div>
+								<a class="shop-item__name" href="#">
 									Samsung Galaxy S21
-								</span>
+								</a>
 								<span class="shop-item__price">
 									$25
 								</span>
@@ -980,64 +1055,68 @@
 				<a href="#">Losoxlo</a>
 			</div>
 
-			<!-- Footer nav -->
-			<nav class="footer__nav">
-				<h4 class="footer__title">
-					Menu
-				</h4>
-				<ul class="footer__list">
-					<li>
-						<a href="#">How to sell and buy?</a>
-					</li>
-					<li>
-						<a href="#">Safety regulations</a>
-					</li>
-					<li>
-						<a href="#">Site`s map</a>
-					</li>
-					<li>
-						<a href="#">Regions map</a>
-					</li>
-					<li>
-						<a href="#">Popular queries</a>
-					</li>
-				</ul>
-			</nav>
+			<div class="footer__inner-right">
 
-			<!-- Footer policy -->
-			<div class="footer__policy">
-				<h4 class="footer__title">
-					Privacy Policy
-				</h4>
-				<ul class="footer__list">
-					<li>
-						<a href="#">Help &amp; Feedback</a>
-					</li>
-					<li>
-						<a href="#">Paid services</a>
-					</li>
-					<li>
-						<a href="#">Losoxlo PRO</a>
-					</li>
-					<li>
-						<a href="#">Business on Losoxlo</a>
-					</li>
-					<li>
-						<a href="#">For the press</a>
-					</li>
-				</ul>
+				<!-- Footer nav -->
+				<nav class="footer__nav">
+					<h4 class="footer__title">
+						Menu
+					</h4>
+					<ul class="footer__list">
+						<li>
+							<a href="#">How to sell and buy?</a>
+						</li>
+						<li>
+							<a href="#">Safety regulations</a>
+						</li>
+						<li>
+							<a href="#">Site`s map</a>
+						</li>
+						<li>
+							<a href="#">Regions map</a>
+						</li>
+						<li>
+							<a href="#">Popular queries</a>
+						</li>
+					</ul>
+				</nav>
+
+				<!-- Footer policy -->
+				<div class="footer__policy">
+					<h4 class="footer__title">
+						Privacy Policy
+					</h4>
+					<ul class="footer__list">
+						<li>
+							<a href="#">Help &amp; Feedback</a>
+						</li>
+						<li>
+							<a href="#">Paid services</a>
+						</li>
+						<li>
+							<a href="#">Losoxlo PRO</a>
+						</li>
+						<li>
+							<a href="#">Business on Losoxlo</a>
+						</li>
+						<li>
+							<a href="#">For the press</a>
+						</li>
+					</ul>
+				</div>
+
+				<!-- Footer newsletter -->
+				<div class="footer__newsletter">
+					<h4 class="footer__title">
+						Newsletter
+					</h4>
+					<form action="#">
+						<input type="text" placeholder="Your Email">
+						<input type="submit" value="">
+					</form>
+				</div>
 			</div>
 
-			<!-- Footer newsletter -->
-			<div class="footer__newsletter">
-				<h4 class="footer__title">
-					Newsletter
-				</h4>
-				<form action="#">
-					<input type="text" placeholder="Your Email">
-					<input type="submit" value="">
-				</form>
-			</div>
 		</div>
 
 		<!-- Footer bottom -->
