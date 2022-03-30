@@ -2509,6 +2509,13 @@ i {
 .shop-category .featured ul {
   grid-template: 1fr/1fr 1fr;
 }
+.shop-category .shop-item__img {
+  width: 100%;
+  max-width: none;
+}
+.shop-category .shop-item__img img {
+  width: 100%;
+}
 
 /* Item */
 .item {
