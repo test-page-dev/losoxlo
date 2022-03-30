@@ -251,7 +251,7 @@ $(function () {
 			freeMode: true,
 			breakpoints: {
 				1360: {
-					slidesPerView: 3,
+					slidesPerView: 4,
 				}
 			}
 		});
