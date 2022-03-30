@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+	<link rel="shortcut icon" href="#" type="image/x-icon">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="description" content="#">
+	<title>Losoxlo - Item</title>
+	<link rel="stylesheet" href="css/fancy.css">
+<link rel="stylesheet" href="css/ion.rangeSlider.min.css">
+<link rel="stylesheet" href="css/swiper.min.css">
+<link rel="stylesheet" href="css/icon-font.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+	<div class="wrapper">
+
+		<!-- Header -->
+<header class="header">
+	<div class="header__inner">
+
+		<!-- Header top -->
+		<div class="header__top">
+
+			<!-- Logo -->
+			<div class="header__logo">
+				<a href="/">Losoxlo</a>
+			</div>
+
+			<!-- Search -->
+			<div class="header__search">
+				<form action="#">
+					<select class="select header__search-categories">
+						<option value="hide">Categories</option>
+						<option value="">Home & Kitchen</option>
+						<option value="">Electronic Accessories</option>
+						<option value="">Sport & Apparel</option>
+						<option value="">Groceries & Pets</option>
+						<option value="">Vehicles & Accessories</option>
+						<option value="">Tools & Hardware</option>
+						<option value="">TV, audio & video</option>
+						<option value="">Apparel</option>
+					</select>
+					<input class="header__search-input" type="text" placeholder="What are you looking for...">
+					<select class="select header__search-location">
+						<option value="hide">All country</option>
+						<option value="">Dakar</option>
+						<option value="">Diourbel</option>
+						<option value="">Fatick</option>
+						<option value="">Kaffrine</option>
+						<option value="">Kaolack</option>
+					</select>
+					<input class="header__search-btn" type="submit" value="Search">
+				</form>
+			</div>
+
+			<!-- Sign -->
+			<div class="header__sign" role="button">
+				<i class="i-sign"></i>
+				<span>Sign In</span>
+			</div>
+
+			<!-- Actions -->
+			<div class="header__actions">
+				<div class="header__actions-item tablet-hidden">
+					<a class="header__actions-message header__actions-btn" href="#">
+						<i class="i-chat"></i>
+						<span class="header__actions-counter orange">5</span>
+					</a>
+					<div class="header__actions-popup popup-triangle">
+						<ul>
+							<li>
+								<a href="#">
+									<div class="popup-item">
+										<div class="popup-item__img">
+											<img src="./img/users/sellers/2.webp" alt="Seller photo">
+										</div>
+										<div class="popup-item__content">
+											<div class="popup-item__content-text">
+												<h5 class="popup-item__name">
+													Robert King
+												</h5>
+												<div class="popup-item__message">
+													I've finished it! See you soon Lorem ipsum, dolor sit amet
+													consectetur
+													adipisicing elit. Vero, suscipit provident velit tempore eum enim
+													eveniet debitis assumenda est placeat ducimus fugiat totam nisi
+													ipsam nulla? Beatae repudiandae impedit ex!
+												</div>
+											</div>
+											<div class="popup-item__content-count">
+												<span>7</span>
+											</div>
+										</div>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<div class="popup-item">
+										<div class="popup-item__img">
+											<img src="./img/users/sellers/3.webp" alt="Seller photo">
+										</div>
+										<div class="popup-item__content">
+											<div class="popup-item__content-text">
+												<h5 class="popup-item__name">
+													Marcin Dobrozek
+												</h5>
+												<div class="popup-item__message">
+													<span>8 images</span>
+													<span>2 files</span>
+												</div>
+											</div>
+											<div class="popup-item__content-date">
+												<span>21.05.21</span>
+											</div>
+										</div>
+									</div>
+								</a>
+							</li>
+						</ul>
+						<a class="header__actions-all" href="#">View All</a>
+					</div>
+				</div>
+				<div class="header__actions-item tablet-hidden">
+					<a class="header__actions-notifications header__actions-btn" href="#">
+						<i class="i-notification"></i>
+						<span class="header__actions-counter">2</span>
+					</a>
+					<div class="header__actions-popup popup-triangle">
+						<ul>
+							<li>
+								<a href="#">
+									<div class="popup-item">
+										<div class="popup-item__img">
+											<img src="./img/shop-categories/phones/p-1.webp" alt="Shop item">
+										</div>
+										<div class="popup-item__content">
+											<div class="popup-item__content-text">
+												<h5 class="popup-item__name">
+													Samsung Galaxy S21 FE 6/128GB Olive
+												</h5>
+												<div class="popup-item__message">
+													Super sale -50%
+												</div>
+											</div>
+										</div>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<div class="popup-item">
+										<div class="popup-item__img">
+											<img src="./img/shop-categories/phones/p-2.webp" alt="Shop item">
+										</div>
+										<div class="popup-item__content">
+											<div class="popup-item__content-text">
+												<h5 class="popup-item__name">
+													Apple iPhone 11 64Gb Black
+												</h5>
+												<div class="popup-item__message">
+													In stock now!
+												</div>
+											</div>
+										</div>
+									</div>
+								</a>
+							</li>
+						</ul>
+						<a class="header__actions-all" href="#">View All</a>
+					</div>
+				</div>
+				<div class="header__actions-item mobile-hidden">
+					<a class="header__actions-cart header__actions-btn" href="#">
+						<i class="i-shopping-cart"></i>
+						<span class="header__actions-counter">1</span>
+					</a>
+					<div class="header__actions-popup popup-triangle">
+						<div class="cart-popup">
+	<ul class="cart-popup__list">
+		<li class="cart-popup__item">
+			<a class="cart-popup__item-link" href="#">
+				<div class="cart-popup__item-img">
+					<img src="./img/shop-categories/phones/p-3.webp" alt="Shop item">
+				</div>
+				<div>
+					<h5 class="cart-popup__item-name">
+						Samsung Galaxy S21 FE 6/128GB Olive
+					</h5>
+					<div class="cart-popup__item-info">
+						<span class="cart-popup__item-count">x 1</span>
+						<span class="cart-popup__item-price">$250</span>
+					</div>
+				</div>
+			</a>
+			<div class="cart-popup__del">
+				<img src="./img/icons/del.svg" alt="Del">
+			</div>
+		</li>
+		<li class="cart-popup__item">
+			<a class="cart-popup__item-link" href="#">
+				<div class="cart-popup__item-img">
+					<img src="./img/shop-categories/phones/p-4.webp" alt="Shop item">
+				</div>
+				<div>
+					<h5 class="cart-popup__item-name">
+						Apple iPhone 11 64Gb Black
+					</h5>
+					<div class="cart-popup__item-info">
+						<span class="cart-popup__item-count">x 3</span>
+						<span class="cart-popup__item-price">$270</span>
+					</div>
+				</div>
+			</a>
+			<div class="cart-popup__del">
+				<img src="./img/icons/del.svg" alt="Del">
+			</div>
+		</li>
+	</ul>
+	<div class="cart-popup__bottom">
+		<div class="cart-popup__subtotal">
+			<span class="cart-popup__subtotal-text">
+				Subtotal:
+			</span>
+			<span class="cart-popup__subtotal-price">
+				$520.00
+			</span>
+		</div>
+		<div class="cart-popup__confirm">
+			<a href="#">Confirm Order</a>
+		</div>
+		<div class="cart-popup__to-cart">
+			<a href="#">Go to cart</a>
+		</div>
+	</div>
+</div>
+					</div>
+				</div>
+				<a class="header__actions-cart mobile-shown" href="#">
+					<i class="i-shopping-cart"></i>
+					<span class="header__actions-counter">1</span>
+				</a>
+			</div>
+
+			<!-- Submit an advertisement -->
+			<div class="announcement-btn" role="button">
+				<i class="i-plus-rounded"></i>
+				<span>Submit an advertisement</span>
+			</div>
+
+			<!-- Card burger -->
+<div class="burger">
+	<div class="burger__toggle">
+		<div class="burger__main">
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+		<div class="burger__cross">
+			<span></span>
+			<span></span>
+		</div>
+	</div>
+</div><!-- Card burger -->
+		</div>
+
+		<div class="header__line"></div>
+
+		<!-- Header bottom -->
+		<div class="header__bottom">
+
+			<!-- Header nav -->
+			<nav class="header__nav">
+
+				<!-- Header menu -->
+				<div class="header__menu-wrap">
+					<ul class="header__menu">
+						<li>
+							<a href="#">Home</a>
+						</li>
+						<li>
+							<a href="#">Fashion</a>
+						</li>
+						<li>
+							<a class="is-active" href="#">Electronics</a>
+						</li>
+						<li>
+							<a href="#">Collectibles & Art</a>
+						</li>
+						<li>
+							<a href="#">Home & Garden</a>
+						</li>
+						<li>
+							<a href="#">Sporting Goods</a>
+						</li>
+						<li>
+							<a href="#">Toys</a>
+						</li>
+						<li>
+							<a href="#">Business & Industrial</a>
+						</li>
+						<li>
+							<a href="#">Music</a>
+						</li>
+					</ul>
+				</div>
+
+				<!-- Header bottom actions -->
+				<div class="header__bottom-actions">
+					<div class="header__wishlist header__bottom-action">
+						<span>
+							Wishlist
+						</span>
+						<i class="i-angle-down"></i>
+					</div>
+					<div class="header__profile header__bottom-action">
+						<span>
+							My Losoxlo
+						</span>
+						<i class="i-angle-down"></i>
+					</div>
+				</div>
+
+			</nav>
+		</div>
+	</div>
+</header>
+
+<!-- Mobile menu -->
+<div class="mobile-menu">
+	<div class="box"></div>
+	<div class="mobile-menu__inner">
+		<ul class="mobile-menu__list">
+			<li>
+				<a href="#">Fashion</a>
+			</li>
+			<li>
+				<a href="#">Electronics</a>
+			</li>
+			<li>
+				<a href="#">Collectibles &amp; Art</a>
+			</li>
+			<li>
+				<a href="#">Home &amp; Garden</a>
+			</li>
+			<li>
+				<a href="#">Sporting Goods</a>
+			</li>
+			<li>
+				<a href="#">Toys</a>
+			</li>
+			<li>
+				<a href="#">Business &amp; Industrial</a>
+			</li>
+			<li>
+				<a href="#">Music</a>
+			</li>
+		</ul>
+		<ul class="mobile-menu__actions">
+			<li>
+				<a href="#">
+					<i class="i-sign"></i>
+					<span>My Account</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<i class="i-chat"></i>
+					<span>Messages</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<i class="i-notification"></i>
+					<span>Notifications</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<i class="i-heart"></i>
+					<span>Wish List</span>
+				</a>
+			</li>
+		</ul>
+		<!-- Submit an advertisement -->
+		<div class="announcement-btn" role="button">
+			<i class="i-plus-rounded"></i>
+			<span>Submit an advertisement</span>
+		</div>
+	</div>
+</div>
+
+		<div class="container">
+
+			<!-- Cart -->
+			<div class="cart">
+				<div class="cart__left">
+					<div class="cart__left-top gl-box">
+						<div class="breadcrumbs">
+							<ul>
+								<li class="breadcrumbs__item">
+									<a href="#">
+										Home
+									</a>
+								</li>
+								<li class="breadcrumbs__item">
+									<a href="#">
+										Cart
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="cart__item-count">
+							Shopping Cart ( <span>2</span> items )
+						</div>
+					</div>
+					<ul class="cart__list">
+						<li class="gl-box">
+							<a class="cart__item-link" href="#">
+								<div class="cart__item-img">
+									<img src="./img/shop-categories/phones/8.webp" alt="Item">
+								</div>
+								<div class="cart__item-info">
+									<span class="cart__item-id">
+										ID:
+										<span>
+											729713517
+										</span>
+									</span>
+									<span class="cart__item-name">
+										Samsung Galaxy S21 FE 6/128GB Olive
+									</span>
+								</div>
+							</a>
+							<div class="cart__item-quantity">
+								<div class="num-block">
+									<div class="num-in">
+										<span class="minus dis"></span>
+										<input type="number" class="in-num" value="1">
+										<span class="plus"></span>
+									</div>
+								</div>
+							</div>
+							<div class="cart__item-price">
+								<span>
+									$25000
+								</span>
+								<div class="cart__item-del"></div>
+							</div>
+						</li>
+						<li class="gl-box">
+							<a class="cart__item-link" href="#">
+								<div class="cart__item-img">
+									<img src="./img/shop-categories/phones/9.webp" alt="Item">
+								</div>
+								<div class="cart__item-info">
+									<span class="cart__item-id">
+										ID:
+										<span>
+											729713517
+										</span>
+									</span>
+									<span class="cart__item-name">
+										Apple iPhone 11 64Gb Black
+									</span>
+								</div>
+							</a>
+							<div class="cart__item-quantity">
+								<div class="num-block">
+									<div class="num-in">
+										<span class="minus dis"></span>
+										<input type="number" class="in-num" value="1">
+										<span class="plus"></span>
+									</div>
+								</div>
+							</div>
+							<div class="cart__item-price">
+								<span>
+									$450
+								</span>
+								<div class="cart__item-del"></div>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="cart__right gl-box">
+					<button class="cart__checkout">
+						Go To Checkout
+					</button>
+					<div>
+						<div class="cart__items-total">
+							<span>
+								Items: 2
+							</span>
+							<span>
+								$27500
+							</span>
+						</div>
+						<div class="cart__subtotal">
+							<span>
+								Subtotal:
+							</span>
+							<span>
+								$27500
+							</span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div><!-- container -->
+
+		<!-- Pre-footer -->
+<div class="pre-footer">
+	<p>
+		View the Losoxlo offer for business
+	</p>
+	<div class="announcement-btn orange" role="button">
+		<i class="i-plus-rounded"></i>
+		<span>Submit an advertisement</span>
+	</div>
+</div>
+
+<!-- Footer -->
+<footer class="footer">
+	<div class="container">
+		<!-- Footer inner -->
+		<div class="footer__inner">
+
+			<!-- Footer logo -->
+			<div class="footer__logo">
+				<a href="#">Losoxlo</a>
+			</div>
+
+			<div class="footer__inner-right">
+
+				<!-- Footer nav -->
+				<nav class="footer__nav">
+					<h4 class="footer__title">
+						Menu
+					</h4>
+					<ul class="footer__list">
+						<li>
+							<a href="#">How to sell and buy?</a>
+						</li>
+						<li>
+							<a href="#">Safety regulations</a>
+						</li>
+						<li>
+							<a href="#">Site`s map</a>
+						</li>
+						<li>
+							<a href="#">Regions map</a>
+						</li>
+						<li>
+							<a href="#">Popular queries</a>
+						</li>
+					</ul>
+				</nav>
+
+				<!-- Footer policy -->
+				<div class="footer__policy">
+					<h4 class="footer__title">
+						Privacy Policy
+					</h4>
+					<ul class="footer__list">
+						<li>
+							<a href="#">Help &amp; Feedback</a>
+						</li>
+						<li>
+							<a href="#">Paid services</a>
+						</li>
+						<li>
+							<a href="#">Losoxlo PRO</a>
+						</li>
+						<li>
+							<a href="#">Business on Losoxlo</a>
+						</li>
+						<li>
+							<a href="#">For the press</a>
+						</li>
+					</ul>
+				</div>
+
+				<!-- Footer newsletter -->
+				<div class="footer__newsletter">
+					<h4 class="footer__title">
+						Newsletter
+					</h4>
+					<form action="#">
+						<input type="text" placeholder="Your Email">
+						<input type="submit" value="">
+					</form>
+				</div>
+			</div>
+
+		</div>
+
+		<!-- Footer bottom -->
+		<div class="footer__bottom">
+			<span class="footer__bottom-rights">
+				Losoxlo. All Rights Reserved
+			</span>
+			<div class="footer__bottom-socials">
+				<a href="#"></a>
+				<a href="#"></a>
+				<a href="#"></a>
+			</div>
+		</div>
+	</div>
+</footer>
+	</div><!-- wrapper -->
+
+	<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/fancy.js"></script>
+<script src="js/ion.rangeSlider.min.js"></script>
+<script src="js/swiper.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+
+</html>

@@ -45,6 +45,11 @@
     max-width: clamp(940px, 95vw, 1100px);
   }
 
+  /* Burger */
+  .burger {
+    display: flex;
+  }
+
   /* Header */
   .header__top {
     gap: 20px;
@@ -68,7 +73,7 @@
   .header__actions {
     margin: 0;
   }
-  .header__actions-message, .header__actions-notifications {
+  .header__actions-item.tablet-hidden {
     display: none;
   }
 
@@ -103,6 +108,29 @@
   .shop-item__wishlist {
     opacity: 1;
     transform: scale(1);
+  }
+
+  /* Cart */
+  .cart {
+    grid-template: auto/1fr;
+  }
+  .cart__right {
+    width: 100%;
+  }
+  .cart__item-del {
+    width: 34px;
+    height: 34px;
+    opacity: 1;
+    pointer-events: all;
+    margin-left: 15px;
+  }
+
+  /* Featured */
+  .featured__left {
+    display: none;
+  }
+  .featured__content {
+    grid-template: 1fr/1fr;
   }
 }
 /* --- Tablets M --- */
@@ -189,6 +217,12 @@
     width: 100%;
     margin: 0;
   }
+  .header__actions-cart.mobile-shown {
+    display: flex !important;
+  }
+  .header__actions-item.mobile-hidden {
+    display: none;
+  }
 
   /* Featured */
   .featured__content {
@@ -234,6 +268,32 @@
 
   .main-slider__content {
     padding-left: 20px;
+  }
+
+  /* Item */
+  .item--wide .gallery-container {
+    flex-direction: column;
+  }
+  .item--wide .gallery-thumbs {
+    width: 100%;
+    height: clamp(70px, 15vw, 124px);
+  }
+  .item--wide .item__specification--columns .item__specification-inner {
+    grid-template: auto/1fr;
+  }
+
+  /* Cart */
+  .cart__list li {
+    grid-template: auto/1fr;
+    gap: 25px;
+  }
+  .cart__item-quantity, .cart__item-price {
+    margin: 0;
+  }
+
+  /* Shop category */
+  .shop-category .featured ul {
+    grid-template: 1fr 1fr/1fr;
   }
 }
 /* --- Mobile Phones M--- */
@@ -289,11 +349,62 @@
     border: 0;
     padding-top: 5px;
   }
+
+  /* Item */
+  .item--wide .gallery-main .swiper-button-next,
+.item--wide .gallery-main .swiper-button-prev {
+    display: none;
+  }
+
+  .item--wide .item__price {
+    justify-content: flex-start;
+    margin-bottom: 15px;
+  }
+
+  .item--wide .item__box-inner {
+    flex-direction: column;
+  }
+
+  .item__features-lists {
+    grid-template: auto/1fr;
+  }
+
+  /* Cart */
+  .cart__item-img {
+    width: 110px;
+    height: 80px;
+  }
 }
 /* --- Mobile Phones S--- */
 @media only screen and (max-width: 360px) {
   /* Category */
   .shop-category__header {
     padding: 15px 10px;
+  }
+
+  .file-input__text {
+    display: none;
+  }
+
+  .item__description-box-images {
+    grid-template: auto/1fr;
+  }
+
+  .item--wide .gallery-main {
+    height: 150px;
+  }
+
+  .item--wide .gallery-thumbs {
+    height: 50px;
+  }
+
+  .item--wide .gallery-container {
+    gap: 10px;
+  }
+
+  /* Cart */
+  .cart__item-link {
+    flex-direction: column;
+    align-items: flex-start;
   }
 }
