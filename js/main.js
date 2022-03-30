@@ -241,6 +241,20 @@ $(function () {
 				}
 			}
 		});
+
+		// Popular laptops
+		const swiper8 = new Swiper('.slider-8', {
+			slidesPerView: 'auto',
+			spaceBetween: 25,
+			speed: 800,
+			loop: true,
+			freeMode: true,
+			breakpoints: {
+				1360: {
+					slidesPerView: 3,
+				}
+			}
+		});
 	}
 
 	// Items filter show button
@@ -272,7 +286,6 @@ $(function () {
 			} else {
 				viewToggler.removeClass('is-active');
 				$(this).addClass('is-active');
-				$('.shop-category__items-top').toggleClass('is-active');
 				$('.shop-category__items-bottom').toggleClass('is-active');
 			}
 		});
